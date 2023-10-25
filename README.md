@@ -12,3 +12,7 @@ stable and maintained plugin manager for Nvim.
 
 At this point, the Lazy plugin manager is being used on default mode.
 
+### Color Scheme
+
+At this point the [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) colorscheme has been choosed in this configuration.
+
