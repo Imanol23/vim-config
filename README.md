@@ -14,5 +14,6 @@ At this point, the Lazy plugin manager is being used on default mode.
 
 ### Color Scheme
 
-At this point the [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) colorscheme has been choosed in this configuration.
+The [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) color scheme has been choosed in this configuration,
+more concretely we are using `colorscheme kanagawa-dragon` colors.
 
