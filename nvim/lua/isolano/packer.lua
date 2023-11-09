@@ -21,6 +21,9 @@ require("lazy").setup({
 		end,},
 	{"nvim-telescope/telescope.nvim", branch = '0.1.x',
          dependencies = { 'nvim-lua/plenary.nvim' }
-    }
+    	},
+	{"nvim-lualine/lualine.nvim",
+	 dependencies = {"nvim-tree/nvim-web-devicons"}
+	},
 })
 
