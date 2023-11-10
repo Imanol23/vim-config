@@ -13,12 +13,8 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 	"rebelot/kanagawa.nvim",
-	{
-		"nvim-treesitter/nvim-treesitter",
-		run = function()
-			local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
-			ts_update()
-		end,},
+	{"nvim-treesitter/nvim-treesitter",
+	 build = ":TSUpdate"},
 	{"nvim-telescope/telescope.nvim", branch = '0.1.x',
          dependencies = { 'nvim-lua/plenary.nvim' }
     	},

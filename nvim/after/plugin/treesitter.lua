@@ -1,6 +1,8 @@
+require("nvim-treesitter.install").prefer_git = true
+
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or 'all'
-  ensure_installed = { 'c', 'lua', 'python', 'cpp', 'markdown', 'vimdoc'},
+  ensure_installed = { 'lua', 'c', 'python', 'cpp', 'vimdoc', 'markdown'},
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,
