@@ -12,8 +12,8 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	-- "rebelot/kanagawa.nvim",
-	"Mofiqul/vscode.nvim",
+	"rebelot/kanagawa.nvim",
+	-- "Mofiqul/vscode.nvim",
 	{"nvim-treesitter/nvim-treesitter",
 	 build = ":TSUpdate"},
 	{"nvim-telescope/telescope.nvim", branch = '0.1.x',
